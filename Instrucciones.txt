@@ -1,0 +1,13 @@
+Para testear los ejercicios:
+
+1. Abrir visual studio.
+2. Correr el servidor.
+3. Abrir "POSTMAN".
+4. Rutas de los requests: 
+  https://localhost:44330/api/XML/Ejercicio# 
+  ejemplo https://localhost:44330/api/XML/Ejercicio1 
+  
+  En el caso de los JSON https://localhost:44330/api/JSON/Ejercicio13
+
+5. Para enviar Requests con postman:
+Los métodos son POST y GET, ver el controlador de los ejercicios para verificar y cuando un método tiene parámetros se envían en el body del request con el tipo de request en JSON.
